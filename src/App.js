@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
+import Dark from './dark'
+
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css'; // Import the CSS file
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <div >
+{/* <ServicesDetail/> */}
+
+      <div className='row' >
+        <Header />
+      </div>
+      <div className='row mt-0'>
+        <div className='col-6'>
+          <Body />
+        </div>
+        <div className='col-6 mt-0'>
+          <Footer />
+        </div>
+
+      </div>
+      <div className='row'>
+<Dark/>
+      </div>
+
+
     </div>
   );
 }
