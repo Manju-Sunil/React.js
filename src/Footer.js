@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
+    <footer className='overflow'>
       {/* <p>Footer</p> */}
       <h6>IZHTECH</h6>
       <h1>Here is some text.</h1>

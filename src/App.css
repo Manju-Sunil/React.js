@@ -107,3 +107,8 @@ margin-bottom: 50px !important;
     height: 80px !important; /* Adjust the size of the overlay image as needed */
     z-index: 1; /* To place the overlay image on top of the background image */
   }
+
+  .overflow{
+
+    overflow-x: hidden !important;
+  }

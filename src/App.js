@@ -10,13 +10,13 @@ import './App.css'; // Import the CSS file
 function App() {
   return (
     
-    <div >
+    <div className='overflow'>
 {/* <ServicesDetail/> */}
 
-      <div className='row' >
+      <div className='row overflow' >
         <Header />
       </div>
-      <div className='row mt-0'>
+      <div className='row mt-0 overflow'>
         <div className='col-6'>
           <Body />
         </div>
@@ -25,7 +25,7 @@ function App() {
         </div>
 
       </div>
-      <div className='row'>
+      <div className='row overflow'>
 <Dark/>
       </div>
 

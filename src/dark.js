@@ -14,8 +14,8 @@ function Dark (){
     return(
 
         <>
-// Main
-        <div className='row bg-dark'>
+
+        <div className='row ms-3 bg-dark overflow'>
 
 {/* first Row */}
 <div className='row container mt-3 d-flex justify-content-around'>
@@ -266,7 +266,7 @@ function Dark (){
 
 
 
-       <div className='row'>
+       <div className='row '>
         <div className='container mt-4  '>
             <div className='row'>
                 <div className='col-6 ms-4'>
@@ -289,7 +289,7 @@ function Dark (){
        </div>
 
        {/* <!-- Footer --> */}
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white overflow">
   {/* <!-- Grid container --> */}
   <div class="container p-4">
     {/* <!-- Section: Social media --> */}

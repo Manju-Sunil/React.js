@@ -25,7 +25,7 @@ function About() {
   
   return (
     <div >
-       <div className='border border-0' style={cardContainerStyle}>
+       <div className='border border-0 overflow' style={cardContainerStyle}>
         <div style={{ position: 'relative' }}>
           <div className='overlay-image'>
           <img className='over' src={img4} alt="Description of your image"  />
